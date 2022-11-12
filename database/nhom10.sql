@@ -105,6 +105,9 @@ CREATE TABLE IF NOT EXISTS `manufactures` (
 --
 
 INSERT INTO `manufactures` (`manu_id`, `manu_name`) VALUES
+(8, 'Ipad'),
+(7, 'MSI'),
+(6, 'Macbook'),
 (5, 'Apple'),
 (4, 'SamSung'),
 (3, 'Asus'),
@@ -149,8 +152,8 @@ CREATE TABLE IF NOT EXISTS `protypes` (
 --
 
 INSERT INTO `protypes` (`type_id`, `type_name`) VALUES
-(5, 'USB'),
-(4, 'Ipad'),
+(5, 'Smartwacth'),
+(4, 'Tablet'),
 (3, 'Tai nghe'),
 (2, 'Điện Thoại'),
 (1, 'LapTop');
