@@ -109,7 +109,7 @@ INSERT INTO `manufactures` (`manu_id`, `manu_name`) VALUES
 (4, 'SamSung'),
 (3, 'Asus'),
 (2, 'Oppo'),
-(1, 'Realme');
+(1, 'XiaoChaoMeng');
 
 -- --------------------------------------------------------
 
