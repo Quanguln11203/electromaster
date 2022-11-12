@@ -21,7 +21,7 @@
 			</div>
 			<!-- /container -->
 		</nav>
-		<!-- /NAVIGATION -->
+	<!-- /NAVIGATION -->
 		<!-- SECTION -->
 		<div class="section">
 			<!-- container -->
