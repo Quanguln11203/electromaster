@@ -82,10 +82,10 @@ CREATE TABLE IF NOT EXISTS `khachhang` (
 --
 
 INSERT INTO `khachhang` (`MaKH`, `NameKH`, `Email`, `Address`, `Phone`) VALUES
-(2, 'Dung', 'dung@gmail.com', 'Thủ Đức', 123455),
-(4, 'Quang', 'quang@mail.com', 'Thủ Đức', 12356978),
-(13, 'Thong', 'thong@gmail.com', 'Thủ Đức', 1234567),
-(15, 'Tuấn', 'tuan@gmail.com', 'hcm', 368390949);
+(2, 'Dung', 'dung@gmail.com', 'Thu Duc', 123455),
+(4, 'Quang', 'quang@mail.com', 'Thu Duc', 12356978),
+(13, 'Thong', 'thong@gmail.com', 'Thu Duc', 1234567),
+(15, 'Tuan', 'tuan@gmail.com', 'HCM', 368390949);
 
 -- --------------------------------------------------------
 
@@ -192,7 +192,7 @@ INSERT INTO `protypes` (`type_id`, `type_name`) VALUES
 (5, 'Smartwacth'),
 (4, 'Tablet'),
 (3, 'Tai nghe'),
-(2, 'Điện Thoại'),
+(2, 'Dien Thoai'),
 (1, 'LapTop');
 
 -- --------------------------------------------------------
