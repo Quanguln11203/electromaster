@@ -9,11 +9,11 @@
 					<ul class="main-nav nav navbar-nav">
 						<li class="active"><a href="#">Home</a></li>
 						<li><a href="#">Hot Deals</a></li>
-						<li><a href="#">Categories</a></li>
+						<li><a href="#">Headphone</a></li>
 						<li><a href="#">Laptops</a></li>
 						<li><a href="#">Smartphones</a></li>
-						<li><a href="#">Cameras</a></li>
-						<li><a href="#">Accessories</a></li>
+						<li><a href="#">Tablet</a></li>
+						<li><a href="#">Smartwacth</a></li>					
 					</ul>
 					<!-- /NAV -->
 				</div>
@@ -91,8 +91,9 @@
 								<ul class="section-tab-nav tab-nav">
 									<li class="active"><a data-toggle="tab" href="#tab1">Laptops</a></li>
 									<li><a data-toggle="tab" href="#tab1">Smartphones</a></li>
-									<li><a data-toggle="tab" href="#tab1">Cameras</a></li>
-									<li><a data-toggle="tab" href="#tab1">Accessories</a></li>
+									<li><a data-toggle="tab" href="#tab1">Smartwacth</a></li>
+									<li><a data-toggle="tab" href="#tab1">Headphone</a></li>
+									<li><a data-toggle="tab" href="#tab1">Tablet</a></li>
 								</ul>
 							</div>
 						</div>
@@ -137,7 +138,6 @@
 											</div>
 										</div>
 										<!-- /product -->
-
 										<!-- product -->
 										<div class="product">
 											<div class="product-img">
@@ -168,7 +168,6 @@
 											</div>
 										</div>
 										<!-- /product -->
-
 										<!-- product -->
 										<div class="product">
 											<div class="product-img">
@@ -194,7 +193,6 @@
 											</div>
 										</div>
 										<!-- /product -->
-
 										<!-- product -->
 										<div class="product">
 											<div class="product-img">
@@ -222,7 +220,6 @@
 											</div>
 										</div>
 										<!-- /product -->
-
 										<!-- product -->
 										<div class="product">
 											<div class="product-img">
