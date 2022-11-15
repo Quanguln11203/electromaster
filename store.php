@@ -238,11 +238,11 @@
                 <div class="row">
                     <!-- product -->
                     <?php
-                    if (isset($_GET['manu_id'])):
+                    if (isset($_GET['manu_id'])) :
                         $manu_id = $_GET['manu_id'];
                         $getProductByManuid = $product->getProductByManuId($manu_id);
-                        //hien thi 3 san pham tren 1 trang
-                        $perPage = 3;
+                        //hien thi  6 san pham 
+                        $perPage = 6;
                         //lay so trang tren thanh dia chi
                         if (isset($_GET['page'])) {
                             $page = $_GET['page'];
@@ -254,44 +254,42 @@
                         //lay duong dan den file hien hanh
                         $url = $_SERVER['PHP_SELF'] . "?manu_id=" . $manu_id;
                         $get3ProductByManuId = $product->get3ProductByManuId($manu_id, $page, $perPage);
-                        foreach ($get3ProductByManuId as $value):
+                        foreach ($get3ProductByManuId as $value) :
                     ?>
-                    <div class="col-md-4 col-xs-6">
-                        <div class="product">
-                            <div class="product-img">
-                                <img src="./img/<?php echo $value['image'] ?>" alt="">
-                            </div>
-                            <div class="product-body">
-                                <p class="product-category">Category</p>
-                                <h3 class="product-name"><a href="#">
-                                        <?php echo $value['name'] ?>
-                                    </a></h3>
-                                <h4 class="product-price">
-                                    <?php echo $value['price'] ?>
-                                </h4>
-                                <div class="product-rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
+                            <div class="col-md-4 col-xs-6">
+                                <div class="product">
+                                    <div class="product-img">
+                                        <img src="./img/<?php echo $value['image'] ?>" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <p class="product-category">Category</p>
+                                        <h3 class="product-name"><a href="#">
+                                                <?php echo $value['name'] ?>
+                                            </a></h3>
+                                        <h4 class="product-price">
+                                            <?php echo $value['price'] ?>
+                                        </h4>
+                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="product-btns">
+                                            <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">add to wishlist</span></button>
+                                            <button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">add to compare</span></button>
+                                            <button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">quick
+                                                    view</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
+                                    </div>
                                 </div>
-                                <div class="product-btns">
-                                    <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span
-                                            class="tooltipp">add to wishlist</span></button>
-                                    <button class="add-to-compare"><i class="fa fa-exchange"></i><span
-                                            class="tooltipp">add to compare</span></button>
-                                    <button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">quick
-                                            view</span></button>
-                                </div>
                             </div>
-                            <div class="add-to-cart">
-                                <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /product -->
-                    <?php endforeach;?>
+                            <!-- /product -->
+                        <?php endforeach; ?>
                 </div>
                 <!-- /store products -->
                 <!-- store bottom filter -->
@@ -302,7 +300,7 @@
                     </ul>
                 </div>
                 <!-- /store bottom filter -->
-                <?php endif; ?>
+            <?php endif; ?>
             </div>
             <!-- /STORE -->
         </div>
@@ -348,6 +346,6 @@
 </div>
 <!-- /NEWSLETTER -->
 
-<?php 
+<?php
 require "footer.php";
 ?>

@@ -8,6 +8,9 @@ $product = new Product;
 $manu = new Manufacture;
 $protype = new Protype;
 $getAllProduct = $product->getAllProducts();
+$getNewProduct = $product->getNewproduct();
+$getOldProduct = $product->getOldproduct();
+$getNewManu = $manu->getNewManu();
 $getAllManu = $manu->getAllManu();
 $getAllProtype = $protype->getAllProtype();
 ?>
@@ -85,18 +88,18 @@ $getAllProtype = $protype->getAllProtype();
 
 					<!-- SEARCH BAR -->
 					<div class="col-md-6">
-						<div class="header-search">
-							<form>
-								<select class="input-select">
-									<option value="0">All Categories</option>
-									<option value="1">Category 01</option>
-									<option value="1">Category 02</option>
-								</select>
-								<input class="input" placeholder="Search here">
-								<button class="search-btn">Search</button>
-							</form>
-						</div>
-					</div>
+                        <div class="header-search">
+                            <form method="get" action="result.php">
+                                <select class="input-select">
+                                    <option value="0">All Categories</option>
+                                    <option value="1">Category 01</option>
+                                    <option value="1">Category 02</option>
+                                </select>
+                                <input class="input" placeholder="Search here" name="keyword">
+                                <button type="submit" class="search-btn">Search</button>
+                            </form>
+                        </div>
+                    </div>
 					<!-- /SEARCH BAR -->
 
 					<!-- ACCOUNT -->
