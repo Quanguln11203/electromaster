@@ -264,8 +264,8 @@
                                     <div class="product-body">
                                         <p class="product-category">Category</p>
                                         <h3 class="product-name"><a href="#">
-                                                <?php echo $value['name'] ?>
-                                            </a></h3>
+                                        <a href="detail.php?id=<?php echo $value['id'] ?>"><?php echo $value['name'] ?></a>  
+                                            </h3>
                                         <h4 class="product-price">
                                             <?php echo $value['price'] ?>
                                         </h4>
